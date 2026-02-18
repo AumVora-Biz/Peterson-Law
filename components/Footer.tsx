@@ -8,10 +8,14 @@ export const Footer: React.FC = () => {
     <footer className="bg-navy-900 text-white border-t border-navy-800" role="contentinfo">
       <div className="container mx-auto px-6 py-12">
         <div className="flex flex-col md:flex-row justify-between items-center md:items-start gap-8">
-          
+
           <div className="text-center md:text-left">
             <div className="flex items-center justify-center md:justify-start gap-2 mb-4">
-              <Scale className="text-gold-500 w-6 h-6" aria-hidden="true" />
+              <img
+                src="/Peterson-Law/logo.jpg"
+                alt="Peterson & Peterson Logo"
+                className="w-8 h-8 object-contain rounded-full border border-gold-500"
+              />
               <span className="font-serif text-xl font-bold">Peterson & Peterson</span>
             </div>
             <p className="text-gray-400 text-sm max-w-xs">
@@ -29,11 +33,11 @@ export const Footer: React.FC = () => {
               </ul>
             </nav>
             <nav aria-label="Legal Navigation">
-               <h3 className="text-gold-500 font-bold uppercase tracking-wider text-sm mb-4">Legal</h3>
-               <ul className="space-y-2 text-gray-400 text-sm">
-                 <li><a href="#" className="hover:text-white transition-colors focus:outline-none focus:text-gold-500">Privacy Policy</a></li>
-                 <li><a href="#" className="hover:text-white transition-colors focus:outline-none focus:text-gold-500">Terms of Service</a></li>
-               </ul>
+              <h3 className="text-gold-500 font-bold uppercase tracking-wider text-sm mb-4">Legal</h3>
+              <ul className="space-y-2 text-gray-400 text-sm">
+                <li><a href="#" className="hover:text-white transition-colors focus:outline-none focus:text-gold-500">Privacy Policy</a></li>
+                <li><a href="#" className="hover:text-white transition-colors focus:outline-none focus:text-gold-500">Terms of Service</a></li>
+              </ul>
             </nav>
           </div>
         </div>
