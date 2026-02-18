@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Peterson & Peterson | Barristers, Solicitors, Notaries | Northern Ontario</title>
+    <meta name="description" content="Decisive Legal Guidance rooted in Northern Ontario since 1899. Specializing in Mining Law, Real Estate, and Cross-Border Estates. Serving Sault Ste. Marie, Bruce Mines, and Blind River." />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.petersonpeterson.law/" />
+    <meta property="og:title" content="Peterson & Peterson | Established Legal Authority" />
+    <meta property="og:description" content="Serving Northern Ontario since 1899. Expert counsel in Real Estate, Mining Law, and Estates." />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1589829085413-56de8ae18c73?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://www.petersonpeterson.law/" />
+    <meta property="twitter:title" content="Peterson & Peterson | Barristers & Solicitors" />
+    <meta property="twitter:description" content="Decisive Legal Guidance. Rooted in Northern Ontario Since 1899." />
+    <meta property="twitter:image" content="https://images.unsplash.com/photo-1589829085413-56de8ae18c73?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              navy: {
+                900: '#0a192f',
+                800: '#112240',
+                700: '#233554',
+              },
+              gold: {
+                400: '#d4b475',
+                500: '#c5a059',
+                600: '#a48446', // Darkened for better text contrast
+                700: '#8c6b28', // Added for high contrast text
+              },
+              white: '#ffffff',
+            },
+            fontFamily: {
+              serif: ['"Playfair Display"', 'serif'],
+              sans: ['Lato', 'sans-serif'],
+            },
+          }
+        }
+      }
+    </script>
+    <script type="importmap">
+    {
+      "imports": {
+        "react/": "https://esm.sh/react@^19.2.4/",
+        "react": "https://esm.sh/react@^19.2.4",
+        "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+        "lucide-react": "https://esm.sh/lucide-react@^0.574.0"
+      }
+    }
+    </script>
+    
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LegalService",
+      "name": "Peterson & Peterson",
+      "image": "https://images.unsplash.com/photo-1589829085413-56de8ae18c73",
+      "url": "https://www.petersonpeterson.law",
+      "telephone": "+17059421011",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "626 Wellington Street East",
+        "addressLocality": "Sault Ste. Marie",
+        "addressRegion": "ON",
+        "postalCode": "P6A 2M5",
+        "addressCountry": "CA"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 46.5068,
+        "longitude": -84.3166
+      },
+      "foundingDate": "1899",
+      "description": "Providing specialized counsel in Mining Law, Real Estate, and Cross-Border Estates for over a century.",
+      "priceRange": "$$"
+    }
+    </script>
+  <link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-slate-50 text-navy-900 font-sans antialiased">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
